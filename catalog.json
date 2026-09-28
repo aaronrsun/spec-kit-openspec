@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-09-23T00:00:00Z",
+  "catalog_url": "https://raw.githubusercontent.com/aaronrsun/spec-kit-openspec/main/catalog.json",
+  "extensions": {
+    "openspec": {
+      "name": "OpenSpec",
+      "id": "openspec",
+      "version": "0.1.0",
+      "description": "Manage structured change proposals from exploration through implementation, verification, specification sync, and archival.",
+      "author": "aaronrsun",
+      "repository": "https://github.com/aaronrsun/spec-kit-openspec",
+      "download_url": "https://github.com/aaronrsun/spec-kit-openspec/releases/download/openspec-v0.1.0/openspec.zip",
+      "homepage": "https://github.com/aaronrsun/spec-kit-openspec/tree/main/openspec",
+      "documentation": "https://github.com/aaronrsun/spec-kit-openspec/blob/main/openspec/README.md",
+      "changelog": "https://github.com/aaronrsun/spec-kit-openspec/blob/main/openspec/CHANGELOG.md",
+      "license": "MIT",
+      "category": "process",
+      "effect": "read-write",
+      "requires": {
+        "speckit_version": ">=1.0.0"
+      },
+      "provides": {
+        "commands": 12,
+        "hooks": 0
+      },
+      "tags": [
+        "openspec",
+        "spec-driven-development",
+        "planning",
+        "implementation",
+        "workflow",
+        "experimental"
+      ]
+    }
+  }
+}
